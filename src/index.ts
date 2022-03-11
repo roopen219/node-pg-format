@@ -1,5 +1,5 @@
 // reserved Postgres words
-const reservedMap = require(__dirname + '/reserved.js')
+const reservedMap = require('./reserved.js')
 
 const fmtPattern = {
   ident: 'I',
